@@ -1,0 +1,40 @@
+action: GLOB, msg: packaging
+cwd: /Users/grayson/sandbox/pyyaml-deserialize-version-tests
+cmd: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing sampleproject.egg-info/PKG-INFO
+writing dependency_links to sampleproject.egg-info/dependency_links.txt
+writing requirements to sampleproject.egg-info/requires.txt
+writing top-level names to sampleproject.egg-info/top_level.txt
+reading manifest file 'sampleproject.egg-info/SOURCES.txt'
+writing manifest file 'sampleproject.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating sampleproject-0.0.0
+creating sampleproject-0.0.0/sampleproject.egg-info
+creating sampleproject-0.0.0/src
+copying files to sampleproject-0.0.0...
+copying setup.py -> sampleproject-0.0.0
+copying sampleproject.egg-info/PKG-INFO -> sampleproject-0.0.0/sampleproject.egg-info
+copying sampleproject.egg-info/SOURCES.txt -> sampleproject-0.0.0/sampleproject.egg-info
+copying sampleproject.egg-info/dependency_links.txt -> sampleproject-0.0.0/sampleproject.egg-info
+copying sampleproject.egg-info/requires.txt -> sampleproject-0.0.0/sampleproject.egg-info
+copying sampleproject.egg-info/top_level.txt -> sampleproject-0.0.0/sampleproject.egg-info
+copying src/__init__.py -> sampleproject-0.0.0/src
+Writing sampleproject-0.0.0/setup.cfg
+creating '.tox/dist/sampleproject-0.0.0.zip' and adding 'sampleproject-0.0.0' to it
+adding 'sampleproject-0.0.0'
+adding 'sampleproject-0.0.0/sampleproject.egg-info'
+adding 'sampleproject-0.0.0/src'
+adding 'sampleproject-0.0.0/PKG-INFO'
+adding 'sampleproject-0.0.0/setup.py'
+adding 'sampleproject-0.0.0/setup.cfg'
+adding 'sampleproject-0.0.0/sampleproject.egg-info/PKG-INFO'
+adding 'sampleproject-0.0.0/sampleproject.egg-info/SOURCES.txt'
+adding 'sampleproject-0.0.0/sampleproject.egg-info/requires.txt'
+adding 'sampleproject-0.0.0/sampleproject.egg-info/top_level.txt'
+adding 'sampleproject-0.0.0/sampleproject.egg-info/dependency_links.txt'
+adding 'sampleproject-0.0.0/src/__init__.py'
+removing 'sampleproject-0.0.0' (and everything under it)
